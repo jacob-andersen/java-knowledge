@@ -19,6 +19,7 @@ public class pickatopic {
         subTopics.add("ReactJS");
         topics.add("JavaScript");
         topics.add("Git");
+        topics.add("Kotlin");
         subTopics.add("Maven");
         subTopics.add("Junit 5");
         topics.add("Python");
@@ -31,6 +32,8 @@ public class pickatopic {
         topics.add("Docker");
         subTopics.add("NodeJS");
         topics.add("HTML/CSS");
+        topics.add("AWS");
+        topcis.add("Kubernetes");
         
         Random rand = new Random();
 
