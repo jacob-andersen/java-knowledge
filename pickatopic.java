@@ -33,7 +33,7 @@ public class pickatopic {
         subTopics.add("NodeJS");
         topics.add("HTML/CSS");
         topics.add("AWS");
-        topcis.add("Kubernetes");
+        topics.add("Kubernetes");
         
         Random rand = new Random();
 
