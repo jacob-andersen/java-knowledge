@@ -13,7 +13,6 @@ public class StringBuilderDemo {
         
         sb.insert(5, " ");
 
-
         System.out.println(sb);
-    }
+    }    
 }
