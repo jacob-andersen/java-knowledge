@@ -2,10 +2,21 @@ import java.util.*;
 
 public class FunWithDatatypes {
 
+
+  static int number = 5;
+  public static void show() {
+    System.out.println("Inside a static method!");
+  }
+
+
   public static void main(String[] args) {
+    
+   
     Integer a = 12;
     String s = "       hello hello hello hello     ";
     System.out.println(Integer.toBinaryString(a));
+    FunWithDatatypes.show();
+
 
     // When an expression starts with a string, everything that follows is converted to strings
     // This may result in undesirable results
