@@ -15,7 +15,7 @@ public class BankChallenge {
 
         account.deposit(1000);
 
-        account.transfer(account2, 1200);
+        account.transfer(account2, 1);
 
         System.out.println(account.getBalance());
         System.out.println(account2.getBalance());

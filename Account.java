@@ -33,7 +33,7 @@ class Account {
             System.out.println("The amount exceeds the balance");
         } else if (transferAmount < 0) {
             System.out.println("Negative transfer amounts are not accepted");
-        } {
+        } else {
         this.balance -= transferAmount;
         account.deposit(transferAmount);
         }
