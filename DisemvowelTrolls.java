@@ -1,4 +1,4 @@
-public class DisEmvowelTrolls {
+public class DisemvowelTrolls {
     public static void main(String[] args) {
         System.out.println(disemVowel("This website is for losers LOL!"));        
     }

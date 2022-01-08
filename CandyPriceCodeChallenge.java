@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-/* Given an array of candy prices and a fixed dollar amount, determined how many pieces of candy can be
+/* Given an array of candy prices and a fixed dollar amount, determine how many pieces of candy can be
    bought.
 
    1. Sort the array in ascending order

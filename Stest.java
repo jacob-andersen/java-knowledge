@@ -5,8 +5,7 @@ public class Stest {
 
         Supplier<Integer> supplier = () -> 5;
 
-        System.out.println(supplier);
-        
+        System.out.println(supplier);        
     }
     
 }

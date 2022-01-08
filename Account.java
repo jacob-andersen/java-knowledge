@@ -1,6 +1,6 @@
 class Account {
 
-    private double balance;
+    private static double balance;
 
     public Account(double balance) {
         this.balance = balance;

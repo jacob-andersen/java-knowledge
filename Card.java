@@ -1,46 +1,23 @@
+// The Card class deals with all the parts necessary to build a single Card, such as suits, ranks
+// and Card value.
+
+
 public class Card {
+
+    private Suit suit;
+    private Rank rank;
+
     
-// 2 enum classes for Suit and Rank respectively
-// includes methods to determine rank and card value based on a card object
-// in order to determine hand value and winner of game
-    enum Suit {
-        CLUBS("\u0005"), DIAMONDS("\u0004"), HEARTS("\u0003"), SPADES("\u0006");
-
-    private String sign;
-
-        private Suit(String sign) {
-        this.sign = sign;
+    Card(Suit s, Rank r) {
+        suit=s;
+        rank=r;
     }
 
-    public String getSuit() {
-        return this.sign;
-    }
-}
-
-    enum Rank {
-        TWO(2), THREE(3), FOUR(4), FIVE(5), SIX(6), SEVEN(7), EIGHT(8), NINE(9), TEN(10), JACK(10), QUEEN(10), KING(10),
-        ACE(11);
-    
-    private int value;
-    
-    private Rank(int value) {
-            this.value = value;
-        }
-    
-    public int getRank() {
-            return this.value;
-        }    
+    public Rank getRank() {
+        return rank;
     }
 
-    public Suit suit;
-    public Rank rank;
-
-    public Card(Suit suit, Rank rank) {
-        this.rank = rank;
-        this.suit = suit;
-    }
-
-    public String getCardValue (Card card) {
-        return (card.suit.getSuit() + " " + card.rank.getRank());
+    public Suit getSuit() {
+        return suit;
     }
 }
